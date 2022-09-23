@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}
+    Post Show
+{% endblock %}
+
+{% block body %}
+<h1> Welcome {{post_id}} </h1>
+
+    <section class="posts">
+        <h2> Title </h2>
+            <article>
+                <div class="metadata"> 
+                    09-08-2022 at 7:50pm 
+                    <span class="badge bg-success"> Sport </span>
+                </div>
+                <div class="content"> 
+                    <img src="https://picsum.photos/seed/picsum/300/200" class="mt-3 mb-3">
+                    <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                    <a href="#"> Read More </a>
+                    </img>
+                </div>
+
+            </article>
+    </section>
+
+    <h5 class="mt-5"> 5 Comments </h5>
+    <section class="mt-5">
+        <div class="card-header"> 
+            Hammad <small> 2022-9-9 at 11:40pm</small>
+        </div>
+        <div class="card-body">   
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+        </div>
+    </section>
+
+
+
+{% endblock %}
